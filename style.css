@@ -48,7 +48,7 @@ section{
     border-radius: 10px;
 }
 .news-banner img{
-     width: 300px;
+    width: 300px;
 }
 .news-info{
     display: flex;
@@ -94,6 +94,7 @@ section{
 }
 .side-width a{
     text-decoration: none;
+    margin-right: 15px;
 }
 .link-btn-2{
     display: inline-block;
@@ -101,7 +102,7 @@ section{
     margin-left: 10px;
     background-color: white;
     color: black;
-    padding: 15px;
+    padding: 15px 15px;
 }
 .exeptional{
     background-color: red;
