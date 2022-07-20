@@ -8,6 +8,7 @@ body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto Mono', monospace
 }
+
 main{
     display: flex;
     flex-direction: column;
@@ -25,8 +26,9 @@ section{
     padding: 75px;
 }
 .half-width img{
-    width: 100%;
-    margin-left: 10px;
+    width: 110%;
+    height: 100%;
+    margin-right: 20px;
 }
 .half-width, h1, p{
     color: white;
@@ -71,6 +73,13 @@ section{
     color: black;
     padding: 15px 15px;
 }
+.exceptional{
+    color: white;
+    background-color: red;
+    display: inline-block;
+    margin-top: 35px;
+    padding: 14px 20px;
+}
 .fixure-sec{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -83,4 +92,23 @@ section{
 .description{
     text-align: center;
     margin: 15px;
+}
+footer{
+    Width: 1600px;
+    Height: 180px;
+    margin-top: 150px;
+    background-color: #161616;
+    text-align: center;
+    padding: 80px;
+}
+footer a{
+    color: #B9B9B9;
+    text-decoration: none;
+}
+.footer-btn{
+    margin: 15px;
+    justify-content: space-between;
+}
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }

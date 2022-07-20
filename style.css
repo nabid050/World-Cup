@@ -8,6 +8,7 @@ body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto Mono', monospace
 }
+
 main{
     display: flex;
     flex-direction: column;
@@ -25,8 +26,9 @@ section{
     padding: 75px;
 }
 .half-width img{
-    width: 100%;
-    margin-left: 10px;
+    width: 110%;
+    height: 100%;
+    margin-right: 20px;
 }
 .half-width, h1, p{
     color: white;
@@ -46,7 +48,9 @@ section{
     text-decoration: none;
     font-size: 25px;
     border-radius: 10px;
-}
+    transition: width 5s;
+}    
+
 .news-banner img{
     width: 300px;
 }
@@ -96,6 +100,13 @@ section{
     text-decoration: none;
     margin-right: 15px;
 }
+.exceptional{
+    color: white;
+    background-color: red;
+    display: inline-block;
+    margin-top: 35px;
+    padding: 15px 50px;
+}
 .side-width li{
     list-style: none;
 }
@@ -105,18 +116,17 @@ section{
     margin-left: 10px;
     background-color: white;
     color: black;
-    padding: 15px 15px;
+    padding: 15px 20px;
+    flex-direction: column;
 }
 
 footer{
     margin-top: 130px;
+    padding: 80px;
     background-color: #161616;
     text-align: center;
-    padding: 80px;
 }
-footer{
-    list-style: none;
-}
+
 footer a{
     color: #B9B9B9;
     text-decoration: none;
@@ -128,3 +138,6 @@ footer a{
 hr{
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
+@media only screen and (max-width:576px) {
+}
+
